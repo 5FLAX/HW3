@@ -57,6 +57,7 @@ public class Main {
         int bottel4 = bottle * 1440 * 30;
         System.out.println("За 1 месяц машина произвела " +  bottel4 + " штук бутылок");
 
+
         System.out.println("Задание 5");
         int totalCans = 120;
         System.out.println("Общее количество банок краски " + totalCans);
