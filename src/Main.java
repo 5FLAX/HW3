@@ -24,7 +24,7 @@ public class Main {
         System.out.println("Значение переменной fa = " + fa);
         short ca = 569;
         System.out.println("Значение переменной ca = " + ca);
-        int aa = 159;
+        int aa = -159;
         System.out.println("Значение переменной aa = " + aa);
         short ga = 27897;
         System.out.println("Значение переменной ga = " + ga);
@@ -52,9 +52,9 @@ public class Main {
         System.out.println("За 20 минуту машина произвела " +  bottle1 + " штук бутылок");
         int bottel2 = bottle * 1440;
         System.out.println("В сутки машина произвела " +  bottel2 + " штук бутылок");
-        int bottel3 = bottle * 43200;
+        int bottel3 = bottle * 1440 * 3;
         System.out.println("За 3 дня машина произвела " +  bottel3 + " штук бутылок");
-        int bottel4 = bottle * 432000;
+        int bottel4 = bottle * 1440 * 30;
         System.out.println("За 1 месяц машина произвела " +  bottel4 + " штук бутылок");
 
         System.out.println("Задание 5");
